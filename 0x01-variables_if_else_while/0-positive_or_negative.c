@@ -3,22 +3,28 @@
 #include <time.h>
 
 /**
- * main -Entry point
- *
+ * main - prints if the number is positive,negetive or 0
  * Return: Always 0
  */
- 
 int main(void)
 {
-		int n;
+	int n;
 
-		srand(time(0));
-		n = rand() - RAND_MAX / 2;
-		if n(n > 0)
-						printf("%d is positive\n");
-		else if (n = 0)
-						printf("%d is positive\n");
-		else if (n < 0)
-						printf("%d id negative\n");
-		return (0);
+	strand(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	if (n > 0)
+	{
+		printf("%d is positve\n", n);
+	}
+	else if (n == 0)
+	{
+		printf("%d is zero\n", n);
+	}
+	else
+	{
+		printf("%d is negetive\n", n);
+	}
+
+	return (0);
 }
