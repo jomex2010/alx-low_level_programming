@@ -2,7 +2,7 @@
 
 /**
  * main - prints alpha in lower case
- * Returns: Always 0
+ * Returns: Always 0 (success)
  */
 int main(void)
 {
